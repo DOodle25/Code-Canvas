@@ -1,0 +1,233 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  background-color: #5f46db; /* Purple background color */
+  padding: 0.5rem; /* Padding */
+}
+.logo{
+  height: 40px;
+  margin-left: 20px;
+}
+.brand {
+  color: white; /* White text color */
+  text-decoration: none; /* No underline on links */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem; /* Space between links */
+  align-items: center; /* Align items vertically centered */
+}
+
+.profile-image {
+  width: 40px; /* Width of image */
+  height: 40px; /* Height of image */
+  border-radius: 50%; /* Rounded corners */
+}
+
+.profile-name {
+  color: white; /* White text color */
+  font-size: 1.5rem; /* Font size */
+  font-weight: 300; /* Light font weight */
+  margin-right: 10rem; /* Right margin */
+}
+
+/* Sidebar Styles */
+/* Container */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  height: 100vh; /* Full height */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* Space between elements */
+  padding: 2rem 2rem 2rem 0.5rem; /* Padding (top, right, bottom, left) */
+  width: 18rem; /* Width of the sidebar */
+  padding-top: 5rem; /* Padding top */
+}
+
+/* Headings */
+.explore-heading,
+.components-heading {
+  font-weight: bold;
+  font-size: 1.5rem; /* Text size */
+}
+
+/* Link list */
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem; /* Space between links */
+  font-size: 1.25rem; /* Font size */
+  color: #616161; /* Text color */
+}
+
+/* Links */
+.link {
+  text-decoration: none;
+  color: #1e293b;
+  padding: 0.8rem; /* Padding */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+/* Highlighted link */
+.highlighted-link {
+  text-decoration: none;
+  background-color: #4338ca; /* Purple background color */
+  color: white; /* White text */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 0.8rem; /* Padding */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+
+/* Main Content Styles */
+.content {
+  margin-left: 20rem;
+  padding: 3rem;
+  width: calc(100% - 26rem);
+  padding-top: 5rem;
+  background-color: #f9fafb;
+}
+
+.content-title {
+  color: #4338ca;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.content-subtitle {
+  color: #6b7280;
+  font-size: 1.25rem;
+}
+
+.section {
+  margin-top: 2.5rem;
+}
+
+.section-title {
+  color: #4338ca;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section-content {
+  display: flex;
+  width: 100%;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-image {
+  height: 5rem;
+  margin-top: 5rem;
+}
+
+.nav-code-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 12px;
+  background-color: #1e293b;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  justify-items: center;
+  border-radius: 0.5rem;
+}
+
+.nav-bar-buttons {
+  display: flex;
+}
+
+.code-button {
+  padding: 0.5rem 0.6rem;
+  width: 3.5rem;
+  height: min-content;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-bar-action {
+  margin:  auto 0;
+  color: #94a3b8; /* light gray color */
+}
+
+.copy-button {
+  padding: 0.5rem 1.25rem;
+  background-color: #7c3aed; /* purple color */
+  color: white;
+  width: max-content;
+  border: 0;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+  margin-left: 0.5rem;
+  font-weight: medium;
+}
+
+.code-container {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.glass-button-container {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.lock-image {
+  margin-top: 5rem;
+  width: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.glass-button {
+  padding: 0.7rem;
+  font-size: 1.25rem;
+  border: 0;
+  background-color: #2563eb; /* blue color */
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.premium-plan {
+  color: orange;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
