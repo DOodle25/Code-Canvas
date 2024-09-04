@@ -36,3 +36,5 @@ Contributions are welcome! If you have any ideas or suggestions, please open an 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+TODO: whole live server project with previous versions
