@@ -1,0 +1,80 @@
+.circle-3-main {
+    display: flex;
+    width: 90vw;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-right: 2%;
+    padding-left: 2%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-style: none;
+    border-width: 1px;
+}
+.circle-3-main-right{
+    display: flex;
+    width: 90vw;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-right: 2%;
+    padding-left: 2%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-style: none;
+    border-width: 1px;
+}
+.circle-3-main-content{
+    width: 50%;
+    max-width: 450px;
+    padding-right: 2%;
+    padding-left: 2%;
+    flex: 0 0 auto;
+    border-style: none;
+    border-width: 1px;
+}
+.circle-3-main-content-text-top{
+    font-family: 'Gothic A1';
+    display: inline-block;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.circle-3-main-content-text-middle{
+    font-family: 'Gothic A1';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    display: block;
+
+}
+.circle-3-main-content-text-bottom{
+    font-family: 'Gothic A1';
+    margin-bottom: 10px;
+    color: rgb(107, 107, 107);
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+}
+.circle-3-main-content-image-holder{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+}
+.circle-3-main-content-image-holder>img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    flex: 0 0 auto;
+}

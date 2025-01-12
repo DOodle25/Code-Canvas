@@ -1,0 +1,51 @@
+.circle-3{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Circle 3 gradient */
+    background-image: radial-gradient(circle at 100% 0%, rgb(18, 1, 17), rgb(18, 1, 17) 4%, rgb(28, 2, 26) 17%, rgb(34, 2, 32) 34%, rgb(47, 3, 45) 51%, rgb(55, 5, 52) 69%, rgb(28, 2, 26) 85%, rgb(18, 1, 17)), linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+.circle-3 img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.circle-3 h2 {
+    font-family: 'Gothic A1';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+}
+.circle-3 p {
+    font-family: 'Gothic A1';
+    margin-bottom: 10px;
+    color: rgb(107, 107, 107);
+    font-size: 16px;
+    line-height: 30px;
+}
+@media screen and (max-width: 640px){
+    .circle-3 h2 {
+        font-family: 'Gothic A1';
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 5vw;
+        line-height: 5.8vw;
+        font-weight: 700;
+    }
+    .circle-3 p {
+        font-family: 'Gothic A1';
+        margin-bottom: 10px;
+        color: rgb(107, 107, 107);
+        font-size: 2.4vw;
+        line-height: 3.5vw;
+    }
+}

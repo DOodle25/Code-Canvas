@@ -1,0 +1,194 @@
+/* login.module.css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loginBox {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #b12eb1;
+}
+
+.temptitle {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b12eb1;
+  font-size: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputGroup {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: #b12eb1;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #b12eb1;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #9e239e;
+}
+
+.googleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #db4437;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.googleButton:hover {
+  background-color: #c53627;
+}
+
+.googleIcon {
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+.switchText {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.switchButton {
+  background: none;
+  border: none;
+  color: #b12eb1;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.switchButton:hover {
+  color: #9e239e;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .loginBox {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .temptitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #9e239e !important;
+  }
+
+  .input {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .button, .googleButton {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .googleIcon {
+    font-size: 16px;
+  }
+
+  .error, .switchText {
+    font-size: 12px;
+  }
+
+  .closeButton {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .loginBox {
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .temptitle {
+    font-size: 18px;
+  }
+
+  .input {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .button, .googleButton {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .googleIcon {
+    font-size: 14px;
+  }
+
+  .closeButton {
+    font-size: 16px;
+  }
+}

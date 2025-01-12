@@ -1,0 +1,57 @@
+.circle-2 {
+    height: 100vh;
+    background-image: radial-gradient(circle at 100% 0%, rgb(66, 6, 68) 14%, rgb(77, 11, 77) 16%, rgb(198, 74, 193) 39%, rgb(204, 126, 214) 41%, rgb(84, 51, 88) 51%, rgb(0, 0, 0) 63%, rgb(28, 7, 30) 73%, rgb(0, 0, 0) 75%, rgb(22, 6, 24) 89%, rgb(0, 0, 0) 90%, rgb(30, 7, 30) 99%, rgb(0, 0, 0) 99%);
+}
+.circle-2-main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle-2-main-content{
+    max-width: 700px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+}
+.circle-2-main-content-up {
+    color: white;
+    opacity: 0.5;
+    font-family: 'Gothic A1';
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.circle-2-main-content-down {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-family: 'Gothic A1';
+    font-weight: 700 bold;
+    font-size: 38px;
+    color: white;
+}
+.circle-2-main-content-image {
+    display: flex;
+    width: 85%;
+    max-width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle-2-main-content-image>img {
+    width:80%;
+}
+@media screen and (max-height: 680px){
+    .circle-2-main-content-image>img {
+        width: 60%;
+    }
+}
+@media screen and (max-height: 400px){
+    .circle-2-main-content-image>img {
+        display: none;
+    }
+}

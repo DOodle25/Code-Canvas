@@ -1,0 +1,14 @@
+/* Linking Downloaded Google Fonts */
+@font-face {
+  font-family: 'Gothic A1';
+  src: url('./assets/Gothic_A1/GothicA1-Regular.ttf') format('truetype');
+}
+/* html body */
+body {
+  font-family: "Gothic A1";
+  display: block;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}

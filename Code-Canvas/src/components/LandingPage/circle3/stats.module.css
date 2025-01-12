@@ -1,0 +1,51 @@
+.circle-3-main-stats-images {
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+}
+.circle-3-main-stats-images-holder {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 auto;
+    border-width: 1px;
+}
+.circle-3-main-stats-images-number {
+    font-family: 'Gothic A1';
+    color: white;
+    font-size: 60px;
+    line-height: 90px;
+}
+.circle-3-main-stats-images-holder>h4 {
+    font-family: 'Gothic A1';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+@media screen and (max-width: 640px){
+    .circle-3-main-stats-images-number {
+        font-family: 'Gothic A1';
+        color: white;
+        font-size: 6.8vw;
+        line-height: 4vw;
+    }
+    .circle-3-main-stats-images-holder>h4 {
+        font-family: 'Gothic A1';
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 3.8vw;
+        line-height: 3.8vw;
+        font-weight: 400;
+    }
+}

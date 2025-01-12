@@ -1,0 +1,115 @@
+.circle-1-main-content{
+    display: flex;
+}
+.circle-1-main-content-text{
+    padding-left: 10vw;
+    padding-right: 10vh;
+    margin-top: 8vh;
+}
+.circle-1-main-content-text-up{
+    color:white; 
+    font-family: 'Gothic A1';
+    font-size: 9vh;
+    font-weight: 700;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.circle-1-main-content-text-down{
+    color:white; 
+    font-family: 'Gothic A1';
+    display: block;
+    font-size: 3.8vh;
+    font-weight: 400;
+    margin-top: 10px ;
+    margin-bottom: 25px;
+}
+.circle-1-main-content-text>a{
+    color: white;
+    background-color: #b12eb1;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.circle-1-main-content>img{
+    margin-top: 14vh;
+}
+
+/* Tablet size */
+@media screen and (max-width: 1024px){
+    .circle-1-nav>img{
+        margin-top: 20px;
+        max-width: 100%;
+        width: 200px;
+        display: inline-block;
+    }
+    .circle-1-main-content-text{
+        padding-left: 5vw;
+        padding-right: 5vh;
+    }
+    .circle-1-main-content-text-up{
+        font-size: 6vh;
+    }
+    .circle-1-main-content-text-down{
+        font-size: 2.8vh;
+    }
+    .circle-1-main-content-text>a{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 10px;
+        margin-left: 5px;
+        border-radius: 20px;
+        font-family: 'Gothic A1';
+        font-weight: 400;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .circle-1-main-content>img{
+        display: none;
+    }
+    .circle-1-main-content{
+        display: block;
+    }
+}
+@media screen and (max-height: 650px) {
+    .circle-1-main-content>img{
+        display :none;
+    }
+}
+/* mobile size */
+@media screen and (max-width: 475px){
+    .circle-3-main-right{
+        display: flex;
+        width: 90vw;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        padding-right: 2%;
+        padding-left: 2%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-style: none;
+        border-width: 1px;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 400px){
+    .circle-1-main-content>img{
+        display: none;
+    }
+    .circle-1-main-content{
+        display: block;
+    }
+}

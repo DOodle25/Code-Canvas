@@ -1,0 +1,130 @@
+.circle-1-content{
+    padding-right: 10vw;
+    padding-left: 10vw;
+    height: 20vh;
+}
+.circle-1-nav{
+    display:flex;
+    justify-content: space-between;
+}
+.circle-1-nav-menu{
+    display: flex;
+}
+/* CodeCanvas-Logo */
+.circle-1-nav>img{
+    margin-top: 20px;
+    max-width: 100%;
+    width: 266px;
+    display: inline-block;
+}
+.circle-1-nav-menu-options{
+    height: 20px;
+    display: block;
+}
+/* navbar links not dropdown */
+.circle-1-nav-menu-options>a{
+    color: white;
+    padding-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    text-decoration: none;
+}
+.circle-1-nav-menu-button{
+    display:flex;
+}
+.circle-1-nav-menu-button-logo{
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    display: none;
+}
+.circle-1-nav-dropdown-menu{
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+    border-radius: 10px; /* Increased border-radius for a more rounded look */
+    opacity: 1; /* Fully opaque */
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    display: none;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family: 'Gothic A1';
+    font-weight: 200;
+    color: black; /* Ensuring text color is black */
+}
+
+.circle-1-nav-dropdown-menu>a{
+    opacity: 0.8;
+    padding-left: 5px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    background-color: #b12eb1;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+/* hovering over the button */
+/* .drop-link:hover + .circle-1-nav-dropdown-menu{
+    display: block !important;
+} */
+
+.about2, .Dashboard2, .components2, .pricing2{
+    display: none !important;
+}
+/* Tablet size */
+@media screen and (max-width: 1024px){
+    .circle-1-content{
+        padding-right: 5vw;
+        padding-left: 5vw;
+        height: 15vh;
+    }
+    .circle-1-nav > img{
+        margin-top: 20px;
+        max-width: 100%;
+        width: 200px;
+        display: inline-block;
+    }
+    .components{
+        display:none !important;
+    }
+    .components2{
+        display:block !important;
+    }
+    .pricing{
+        display:none !important;
+    }
+    .pricing2{
+        display:block !important;
+    }
+    .circle-1-nav-menu-button-logo{
+        display: block;
+    }
+}
+/* mobile size */
+@media screen and (max-width: 475px){
+    .Dashboard{
+        display:none !important;
+    }
+    .Dashboard2{
+        display:block !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .about{
+        display:none !important;
+    }
+    .about2{
+        display:block !important;
+    }
+    .circle-1-content{
+        padding-right: 5vw;
+        height: 10vh;
+    }
+}
